@@ -1,12 +1,11 @@
 import React from 'react'
-import Header from './header'
+import Agenda from './Agenda'
 
 
 const App = () => {
   return(
     <>
-      <Header />
-      <p>App.js</p>
+      <Agenda />
     </>
   )
 }
