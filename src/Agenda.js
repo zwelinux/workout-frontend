@@ -35,7 +35,7 @@ const Agenda = () => {
                 
                 <div className="title">
                     <h1 className="title-h1">Home Workout</h1>
-                    <h2 className="title-h2">Beginner Level</h2>
+                    <h2 className="title-h2">Couch Potato</h2>
                 </div>
 
                 <div className="main">
