@@ -47,7 +47,10 @@ const Agenda = () => {
                             <p>{item.title}</p>
                         </div>
                         <div className="main-exercise-count">
-                            <p className="main-exercise-count-p">{item.count}</p>
+                            <p className="main-exercise-count-p">
+                                <small>
+                            {item.count ? item.count + ' x' : item.time + ' secs'}</small>
+                            </p>
                         </div>
                     </div>
 
